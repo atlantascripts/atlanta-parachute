@@ -10,7 +10,7 @@ Citizen.CreateThread(function()
     end
 
     lib.registerContext({
-        id = 'kattos_parachute',
+        id = 'atlanta-parachute',
         title = Config.Title,
         options = options
     })
@@ -18,7 +18,7 @@ end)
 
 --Command--
 RegisterCommand("parachute", function()
-    lib.showContext('kattos_parachute')
+    lib.showContext('atlanta-parachute')
 end)
 
 RegisterKeyMapping('parachute', 'Open parachute Menu', 'keyboard', 'HOME')
